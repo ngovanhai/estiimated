@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,.6);
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 320px;
+    max-width: 750px;
+}
+
+.update-all {
+    margin-top: 20px;
+}
+
+.actions {
+    text-align: right;
+    margin-top: 10px;
+}

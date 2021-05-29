@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estimated Shipping Date</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../lib/vue-element-ui/element-ui.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div class="container" id="app">
+        <div class="title">
+            <h2>Generate Json Files & Update Script Tags</h2>
+        </div>
+        <el-table :data="tableData" border v-loading="fetching">
+            <el-table-column prop="shop" label="Shop" width="400">
+                <template slot-scope="scope">
+                    <a target="_blank" :href="'https://apps.omegatheme.com/estimated-shipping/admin.php?shop='+scope.row.shop" >{{scope.row.shop}}</a>
+                </template>
+            </el-table-column>
+            <el-table-column label="Status" width="200">
+                <template slot-scope="scope">
+                    <el-tag :type="filterStatus(scope.row.status)">
+                        {{ scope.row.status }}
+                    </el-tag>
+                </template>
+            </el-table-column>
+            <el-table-column label="Actions" width="149">
+                <template slot-scope="scope">
+                    <el-button type="text" size="small" @click="updateScriptTag(scope.$index)"
+                        :loading="scope.row.updating">Update
+                    </el-button>
+                </template>
+            </el-table-column>
+        </el-table>
+        <div class="update-all">
+            <el-progress v-if="isUpdateAll" :percentage="percentage" :color="genColor()"></el-progress>
+            <div class="actions">
+                <!-- <el-button type="primary" size="medium" @click="migrateData" :loading="isUpdateAll">Migrate
+                    Database</el-button> -->
+                <el-button type="primary" size="medium" @click="updateAllScripts" :loading="isUpdateAll">Update All
+                    Scripts</el-button>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.rootApi = "../services/_generateJson.php";
+        window.rootUpdateApi = "../services/_updateData.php";
+    </script>
+    <script src="../lib/vue/vue.js"></script>
+    <script src="../lib/vue-resource/vue-resource.js"></script>
+    <script src="../lib/vue-element-ui/element-ui.min.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>

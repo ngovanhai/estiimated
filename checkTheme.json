@@ -1,0 +1,712 @@
+[{
+    "name": "narrative",
+    "collection_image": ".card__image-wrapper",
+    "collection_title": ".card__name",
+    "collection_price": ".card__price",
+    "product_title": ".product__title",
+    "product_price": ".product__price",
+    "product_addcart": ".product-form",
+    "product_description": ".product__description",
+    "product_content": ".product__content"
+},
+{
+    "name": "jumpstart",
+    "product_title": ".header__custom",
+    "product_price": "#AddToCartForm span.price, form[action^='/cart/add'] h1.price",
+    "product_addcart": "#AddToCartForm button, form[action^='/cart/add'] .form__column--shopify-payment-btn",
+    "product_description": ".product-description",
+    "product_content": ".product"
+},
+{
+    "name": "boundless",
+    "collection_image": "",
+    "collection_title": ".product-item__title",
+    "collection_price": ".product-item__price-wrapper",
+    "product_title": ".grid__item h2,.grid__item h1",
+    "product_price": "#AddToCartForm .product__price, #AddToCartForm-product-template .product__policies",
+    "product_addcart": ".product__form button.add-to-cart, #AddToCart-product-template",
+    "product_description": ".product-single__description",
+    "product_content": ".product__details-content"
+},
+{
+    "name": "simple",
+    "product_title": ".product-single__title",
+    "product_price": ".product-single__prices",
+    "product_addcart": ".product-form",
+    "product_description": ".product-single__description",
+    "product_content": "#ProductSection"
+},
+{
+    "name": "supply",
+    "collection_image": ".product-grid-image",
+    "collection_title": ".grid-item p",
+    "collection_price": ".product-item--price",
+    "product_title": ".grid-item h1",
+    "product_price": ".product-meta",
+    "product_addcart": "#addToCartForm, .payment-buttons",
+    "product_description": ".product-description",
+    "product_content": ".grid"
+},
+{
+    "name": "debut",
+    "product_title": ".product-single__title,.product-single__title",
+    "product_price": ".product-price__price,.product__price",
+    "product_addcart": ".product-form, body[cz-shortcut-listen='true'] .product-form__item,#mwAddToCart",
+    "product_description": ".product-single__description,.product-single__description",
+    "product_content": ".product-single,.product-single__description"
+},
+{
+    "name": "venture",
+    "collection_image": ".product-card__image-wrapper",
+    "collection_title": ".product-card__name",
+    "collection_price": ".product-card__price",
+    "product_title": ".product-single__title",
+    "product_price": ".product-single__meta-list",
+    "product_addcart": ".product-form",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single"
+},
+{
+    "name": "brooklyn",
+    "collection_image": ".grid-product__image-wrapper",
+    "collection_title": ".grid-product__title",
+    "collection_price": ".grid-product__price-wrap",
+    "product_title": ".product-single__title",
+    "product_price": ".product-single__price",
+    "product_addcart": ".product-single__form",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single"
+},
+{
+    "name": "pop",
+    "collection_image": ".product img",
+    "collection_title": ".product__title",
+    "collection_price": ".product__price",
+    "product_title": ".product-single__title",
+    "product_price": ".product-single__price",
+    "product_addcart": "#addToCartForm",
+    "product_description": ".product-single__desc",
+    "product_content": ".product-single"
+},
+{
+    "name": "minimal",
+    "collection_image": ".grid-link__image",
+    "collection_title": ".grid-link__title", 
+    "collection_price": ".grid-link__meta",
+    "product_title": ".grid__item > h1",
+    "product_price": ".product-single__prices",
+    "product_addcart": "form[action='/cart/add']",
+    "product_description": ".product-description",
+    "product_content": ".product-single"
+},
+{
+    "name": "empire",
+    "collection_image": ".productitem--image-link",
+    "collection_title": ".productitem--title",
+    "collection_price": ".productitem--price ",
+    "product_title": ".product-title",
+    "product_price": ".product-pricing",
+    "product_addcart": "form[action='/cart/add']",
+    "product_description": ".product-description",
+    "product_content": ".product--container"
+},
+{
+    "name": "pacific",
+    "collection_image": ".product-list-item-thumbnail",
+    "collection_title": ".product-list-item-title",
+    "collection_price": ".product-list-item-price",
+    "product_title": ".page-title",
+    "product_price": ".product-price",
+    "product_addcart": ".payment-buttons-container",
+    "product_description": ".product-description",
+    "product_content": ".section-product"
+},
+{
+    "name": "gecko",
+    "collection_image": ".product-list-item-thumbnail",
+    "collection_title": ".product-list-item-title",
+    "collection_price": ".product-list-item-price",
+    "product_title": ".page-title",
+    "product_price": "#productPrice",
+    "product_addcart": ".shopify-variation-add-to-cart",
+    "product_description": ".Shopify-product-details__short-description",
+    "product_content": ".section-product"
+},
+{
+    "name": "responsive",
+    "collection_image": ".product-list-item-thumbnail",
+    "collection_title": ".product-list-item-title",
+    "collection_price": ".product-list-item-price",
+    "product_title": "h1.product_name",
+    "product_price": "p.modal_price",
+    "product_addcart": ".purchase ",
+    "product_description": ".cutlineDetails",
+    "product_content": ".product_section"
+},
+{
+    "name": "msb - hc - 23 jul '18",
+    "product_title": ".product-single__title",
+    "product_price": ".bold_custom_price",
+    "product_addcart": ".product-form-product-template",
+    "product_description": ".product-single__description",
+    "product_content": ".grid.product-single"
+},
+{
+    "name": "theinside",
+    "product_title": ".product-single__title",
+    "product_price": ".product-price",
+    "product_addcart": ".product-form__item ",
+    "product_description": ".description-para",
+    "product_content": ".grid.product-single"
+},
+{
+    "name": "basel",
+    "product_title": ".product_title",
+    "product_price": "#productPrice",
+    "product_addcart": ".shopify-variation-add-to-cart-enabled",
+    "product_description": ".shopify-product-details__short-description",
+    "product_content": ".container"
+},
+{
+    "name": "yourstore",
+    "product_title": ".product-info__title",
+    "product_price": ".product-info__price",
+    "product_addcart": "#add-item-form",
+    "product_description": ".product-info__review",
+    "product_content": ".product-info"
+},
+{
+    "name": "everything59-grocery-r120",
+    "product_title": ".title",
+    "product_price": ".purchase",
+    "product_addcart": "#product-information",
+    "product_description": ".description",
+    "product_content": ".product-info"
+},
+{
+    "name": "motion",
+    "product_title": ".product-single__title",
+    "product_price": ".product__price",
+    "product_addcart": "button.add-to-cart",
+    "product_description": ".product-single__description",
+    "product_content": ".product-info"
+},
+{
+    "name": "focal",
+    "product_title": ".product__title",
+    "product_price": ".product__prices",
+    "product_addcart": ".product__buy",
+    "product_description": "#checkSection",
+    "product_content": ".product__details"
+},
+{
+    "name": "buck-new-theme",
+    "product_title": ".pro-details h2",
+    "product_price": ".pro-details .about",
+    "product_addcart": ".pro-details form",
+    "product_description": ".product-specs",
+    "product_content": "#details-slider-wrap"
+},
+{
+    "name": "companion",
+    "product_title": "form [data-label='Heading']",
+    "product_price": "form [data-label='(P) Price']",
+    "product_addcart": "form [data-label='(P) Cart Button']:first",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single"
+},
+{
+    "name": "ecom-turbo",
+    "product_title": ".product-single__title",
+    "product_price": ".product-single__price",
+    "product_addcart": "[itemprop='offers']",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single"
+},
+{
+    "name": "mogo",
+    "product_title": ".tt-product-head__name, ._v8Vw3gRk__infos [itemprop='name']",
+    "product_price": ".tt-product-head__price, .v8Vw3gRk__prices",
+    "product_addcart": "form [data-label='(P) Cart Button']",
+    "product_description": ".tt-product-head__info-head, ._v8Vw3gRk__desc",
+    "product_content": ".product-single"
+},
+{
+    "name": "parallax",
+    "product_title": ".product_name",
+    "product_price": ".modal_price",
+    "product_addcart": ".purchase-details__buttons",
+    "product_description": ".description",
+    "product_content": ".product_section"
+},
+{
+    "name": "icon",
+    "product_title": ".section-title",
+    "product_price": "#product-price",
+    "product_addcart": ".product-add",
+    "product_description": ".product-description",
+    "product_content": "#shopify-section-product-template"
+},
+{
+    "name": "mr parker",
+    "product_title": "#product-description h1, .product-right-inner h1[itemprop='name']",
+    "product_price": "#product-price",
+    "product_addcart": ".product-add",
+    "product_description": "#product-description .rte",
+    "product_content": ".product-page"
+},
+{
+    "name": "ella",
+    "product_title": ".product-shop .product-title",
+    "product_price": ".product-shop .prices",
+    "product_addcart": "#add-to-cart-form",
+    "product_description": ".product-description",
+    "product_content": ".row"
+},
+{
+    "name": "yourstore ",
+    "product_title": ".product-info__title",
+    "product_price": ".product-info__price",
+    "product_addcart": "#add-item-form",
+    "product_description": ".product-info__description",
+    "product_content": ".product-info-outer"
+},
+{
+    "name": "theme-actualizo-shopify",
+    "product_title": ".product-single__title",
+    "product_price": ".product-single__price",
+    "product_addcart": ".product-single__add-to-cart",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single"
+},
+{
+    "name": "eren-home2",
+    "product_title": "h1[itemprop='name']",
+    "product_price": ".proPrice",
+    "product_addcart": ".proButton",
+    "product_description": ".proAttr.productType",
+    "product_content": ".proBoxPrimary"
+},
+{
+    "name": "turbo",
+    "product_title": "h1.product_name, .product-single__title",
+    "product_price": "p.modal_price, .product-single__price",
+    "product_addcart": "div.purchase-details__buttons, .product-form__item--submit",
+    "product_description": "div.description",
+    "product_content": ".container.main.conent"
+},
+{
+    "name": "pipeline ",
+    "product_title": "h1[itemprop='name']",
+    "product_price": "h5.product__price",
+    "product_addcart": "form[action='/cart/add']",
+    "product_description": "[itemprop='description']",
+    "product_content": ".product-single"
+},
+{
+    "name": "testament",
+    "product_title": "#product-description h1[itemprop='name']",
+    "product_price": "#product-description #product-price",
+    "product_addcart": "#product-description .product-add",
+    "product_description": "#product-description h1[itemprop='description']",
+    "product_content": ".product-section"
+},
+{
+    "name": "theme-blade-tech-holsters-myshopify-com-theme-b",
+    "product_title": ".product_title",
+    "product_price": "#productPrice",
+    "product_addcart": "[action='/cart/add']",
+    "product_description": "[itemprop='description']",
+    "product_content": ".entry-summary"
+},
+{
+    "name": "sunrise",
+    "product_title": ".page-title",
+    "product_price": ".product-price",
+    "product_addcart": "[action='/cart/add']",
+    "product_description": ".product-description",
+    "product_content": ".shopify-section"
+},
+{
+    "name": "prestige",
+    "product_title": ".ProductMeta__Title",
+    "product_price": ".ProductMeta__PriceList",
+    "product_addcart": ".shopify-payment-button",
+    "product_description": ".ProductMeta__Description,.ProductMeta__Description",
+    "product_content": ".Product--large,.Product__Wrapper"
+},
+{
+    "name": "revamp",
+    "product_title": ".custom-font.product-description-header",
+    "product_price": ".custom-font.js .money",
+    "product_addcart": "#add-to-cart-form",
+    "product_description": ".product-description-main-wrapper",
+    "product_content": "#product-box"
+},
+{
+    "name": "theme-export-shoopsty-com",
+    "product_title": ".product-single product_title_size",
+    "product_price": ".product-single .purchase.product_sale_box",
+    "product_addcart": ".product-single .upsells__title",
+    "product_description": ".product-single .product-description",
+    "product_content": ".product-single"
+},
+{
+    "name": "showtime",
+    "product_title": ".container .title",
+    "product_price": ".container .desc_blk_bot",
+    "product_addcart": ".container .desc_blk_bot",
+    "product_description": ".container .desc_blk",
+    "product_content": ".pro_main_c"
+},
+{
+    "name": "district",
+    "product_title": "#AddToCartForm-product-template .product-title",
+    "product_price": "#AddToCartForm-product-template .product-single__price-product-template",
+    "product_addcart": "#AddToCartForm-product-template form[action='/cart/add'],#AddToCartForm,#AddToCartForm-product-template form",
+    "product_description": ".product-aside .description",
+    "product_content": ".product-aside"
+},
+{
+    "name": "shoptimized-theme",
+    "product_title": ".main-prod-desc h1[itemprop='name']",
+    "product_price": ".main-prod-desc .price",
+    "product_addcart": ".main-prod-desc .addtocart--button",
+    "product_description": ".description--tabs",
+    "product_content": ".main-prod-desc"
+}, 
+{
+    "name": "product list genie theme",
+    "product_title": "#ProductSection .product-title",
+    "product_price": "#ProductSection .inline-list.product-meta",
+    "product_addcart": "#ProductSection .payment-buttons",
+    "product_description": "#ProductSection .product-description",
+    "product_content": "#ProductSection"
+},
+{
+    "name": "leather revolution",
+    "product_title": ".Product__Wrapper .ProductMeta__Title",
+    "product_price": ".Product__Wrapper .ProductMeta__PriceList",
+    "product_addcart": ".Product__Wrapper form[action='/cart/add']",
+    "product_description": ".Product__Wrapper .ProductMeta__Description",
+    "product_content": ".Product__Wrapper"
+},
+{
+    "name": "fashionopolism",
+    "product_title": "#product-description [itemprop='name']",
+    "product_price": "#product-description #product-price",
+    "product_addcart": "#product-description #AddToCartForm",
+    "product_description": "#product-description .rte",
+    "product_content": "#product-description"
+},
+{
+    "name": "zack",
+    "product_title": ".product_section .product_name",
+    "product_price": ".product_section .modal_price",
+    "product_addcart": ".product_section .product_form",
+    "product_description": ".product_section .description",
+    "product_content": ".product_section"
+},
+{
+    "name": "productive theme",
+    "product_title": "#product #product-information .title",
+    "product_price": "#product #product-information .purchase",
+    "product_addcart": "#product #product-information #add-item-form",
+    "product_description": "#product #tabs-information",
+    "product_content": "#product"
+},
+{
+    "name": "mobile-view of dsl theme 6.1 hulk 05-02-2020",
+    "product_title": "#MainContent .product-single__title",
+    "product_price": "#MainContent .product-single__price",
+    "product_addcart": "#MainContent form[action='/cart/add']",
+    "product_description": "#MainContent .product-single__description",
+    "product_content": "#MainContent .product-single__description"
+},
+{
+    "name": "Active2",
+    "product_title": ".product-single__title",
+    "product_price": ".product__price",
+    "product_addcart": "#mwAddToCart",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single__description"
+},
+{
+    "name": "warehouse",
+    "product_title": "h1.product-meta__title",
+    "product_price": ".product-form__info-item:first",
+    "product_addcart": ".product-block-list__item--info form[action='/cart/add']",
+    "product_description": ".product-block-list__item--description",
+    "product_content": ".product-block-list__item--description"
+} ,
+{
+    "name": "symmetry hulkapps",
+    "product_title": "h1.title",
+    "product_price": ".price-area",
+    "product_addcart": "form[action='/cart/add']",
+    "product_description": ".product-block-list__item--description",
+    "product_content": ".product-block-list__item--description"
+} 
+,
+{
+    "name": "maxmin-1-r14", 
+    "product_title": "#product-information h1",
+    "product_price": "#price-preview",
+    "product_addcart": ".action-buy-now",
+    "product_description": "#accordion",
+    "product_content": "#accordion"
+},
+{
+    "name": "boost",
+    "product_title": ".product-detail__detail h1.product-detail__title",
+    "product_price": ".product-detail__detail .product-detail__price",
+    "product_addcart": ".product-detail__detail form[action='/cart/add']",
+    "product_description": ".product-description__no-expand",
+    "product_content": ".product-detail__detail"
+},
+{ 
+    "name": "gatronix",
+    "product_title": ".product_single_detail_section h2.product-single__title",
+    "product_price": ".product_single_detail_section .product_single_price",
+    "product_addcart": ".product_single_detail_section form[action='/cart/add']",
+    "product_description": ".product_single_detail_section",
+    "product_content": ".product_single_detail_section"
+},
+{
+    "name": "booster_3_0_4",
+    "product_title": ".product-single__title", 
+    "product_price": ".product-single__price",
+    "product_addcart": "#AddToCartForm",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single__description"
+} ,
+{
+    "name": "debutify 2.0.2",
+    "product_title": ".product-single__title", 
+    "product_price": ".price-wrapper",
+    "product_addcart": ".product-single__quantity",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single__description"
+} 
+,
+{
+    "name": "story theme 3.22 instant body333",
+    "product_title": ".product-single__title", 
+    "product_price": ".product__price",
+    "product_addcart": "#AddToCart-product-template",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single__description"
+} 
+,
+{
+    "name": "fastor fullscreen",
+    "product_title": "h2.name", 
+    "product_price": "#ProductPrice-product-template",
+    "product_addcart": ".add-cart-wrapper",
+    "product_description": "#tab-description",
+    "product_content": "#tab-description"
+} 
+,
+{
+    "name": "streamline",
+    "product_title": ".product-single__title", 
+    "product_price": ".product-single__prices",
+    "product_addcart": ".payment-buttons",
+    "product_description": "#tab-description",
+    "product_content": "#tab-description"
+} 
+,
+{
+    "name": "flex 1.1.5 nerdlydev current (mar-5-2020)",
+    "product_title": ".product_name.title", 
+    "product_price": ".current_price",
+    "product_addcart": ".purchase-details",
+    "product_description": ".cus_ShippingSection",
+    "product_content": "#tab-description"
+} 
+,
+{
+    "name": "pipeline 4.7 - [live]",
+    "product_title": "#productInfo-product h1", 
+    "product_price": ".current_price",
+    "product_addcart": "#AddToCartForm-product",
+    "product_description": "#CartDrawerWrapper--product",
+    "product_content": "#CartDrawerWrapper--product"
+} 
+,
+{
+    "name": "envy",
+    "product_title": "h1.product-description-header", 
+    "product_price": ".product-page--pricing--variant-price",
+    "product_addcart": ".product-page--submit-action",
+    "product_description": ".product-description-wrapper",
+    "product_content": ".product-description-wrapper"
+} 
+,
+{
+    "name": "filter - impulse",
+    "product_title": ".h2.product-single__title", 
+    "product_price": ".product__price",
+    "product_addcart": ".payment-buttons",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single__description"
+} 
+,
+{
+    "name": "1.0.6 jones and co wholesale",
+    "product_title": ".product-details h1", 
+    "product_price": ".price-wrapper h5",
+    "product_addcart": "form[action^='/cart/add']:first",
+    "product_description": ".product-information",
+    "product_content": ".product-information"
+} 
+,
+{
+    "name": "standard 27.04 (korrekt)",
+    "product_title": ".product-single__title", 
+    "product_price": ".product__price",
+    "product_addcart": ".product-form__controls-group--submit",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single__description"
+} 
+,
+{
+    "name": "stella",
+    "product_title": ".ProductMeta__Title", 
+    "product_price": ".ProductMeta__PriceList",
+    "product_addcart": ".ProductForm",
+    "product_description": ".ProductMeta__Description",
+    "product_content": ".ProductMeta__Description"
+} 
+,
+{
+    "name": "fastlane-3-49-active",
+    "product_title": ".productInfo h2", 
+    "product_price": ".price",
+    "product_addcart": ".prod_form",
+    "product_description": ".ProductMeta__Description",
+    "product_content": ".ProductMeta__Description"
+}
+,
+{
+    "name": "apparelix-mobile-accessories",
+    "product_title": ".details_wrapper h2", 
+    "product_price": ".single_product__price",
+    "product_addcart": ".single_product__quantity",
+    "product_description": ".single_product__short_desk",
+    "product_content": ".ProductMeta__Description"
+}
+,
+{
+    "name": "successtheme",
+    "product_title": ".product-single__meta h1", 
+    "product_price": ".product-price__price-product-template",
+    "product_addcart": ".shopify-product-form.shipping_widget_parent_block",
+    "product_description": ".single_product__short_desk",
+    "product_content": ".ProductMeta__Description"
+}
+,
+{
+    "name": "prestige with dual price display",
+    "product_title": ".ProductMeta h1", 
+    "product_price": ".ProductMeta__PriceList",
+    "product_addcart": ".ProductForm",
+    "product_description": ".ProductMeta__Description",
+    "product_content": ".ProductMeta__Description"
+}
+,
+{
+    "name": "copy of prestige",
+    "product_title": ".ProductMeta h1", 
+    "product_price": ".ProductMeta__PriceList",
+    "product_addcart": ".ProductForm",
+    "product_description": ".ProductMeta__Description",
+    "product_content": ".ProductMeta__Description"
+}
+,
+{
+    "name": "shella theme 3.7.6 custom",
+    "product_title": ".product-page-info__title h1", 
+    "product_price": ".product-page-info__price",
+    "product_addcart": "form:first",
+    "product_description": ".ProductMeta__Description",
+    "product_content": ".ProductMeta__Description"
+},{
+    "name": "pxu [boost] live",
+    "product_title": ".product-title", 
+    "product_price": ".product--price ",
+    "product_addcart": "form[action^='/cart/add']",
+    "product_description": ".product-description",
+    "product_content": ".product-description"
+},{
+    "name": "galleria",
+    "product_title": ".product-item-caption-title", 
+    "product_price": ".product-item-caption-price",
+    "product_addcart": "form[action^='/cart/add']:first",
+    "product_description": ".product-item-caption-desc",
+    "product_content": ".product-item-caption-desc"
+}
+,{
+    "name": "l.a - live",
+    "product_title": ".ProductMeta__Title", 
+    "product_price": ".ProductMeta__PriceList",
+    "product_addcart": ".ProductForm",
+    "product_description": ".product-item-caption-desc",
+    "product_content": ".product-item-caption-desc"
+}
+,{
+    "name": "new_theme(01-jan-2020) #latest",
+    "product_title": ".product-title", 
+    "product_price": ".product-price",
+    "product_addcart": ".row_margin",
+    "product_description": ".product-item-caption-desc",
+    "product_content": ".product-item-caption-desc"
+},{
+    "name": "raensandbox | v20 | liv",
+    "product_title": ".product-single__title", 
+    "product_price": ".product-single__price",
+    "product_addcart": ".product-form-item.product-form_item-submit",
+    "product_description": ".product-item-caption-desc",
+    "product_content": ".product-item-caption-desc"
+}
+,{
+    "name": "streamline v1",
+    "product_title": ".product-single__title", 
+    "product_price": ".product-single__prices",
+    "product_addcart": ".product-single__form",
+    "product_description": ".product-single__description",
+    "product_content": ".product-single__description"
+}
+,{
+    "name": "live as of 9/30/20 (oct-6-2020)",
+    "product_title": ".product_name", 
+    "product_price": ".modal_price",
+    "product_addcart": ".shopify-product-form",
+    "product_description": ".description",
+    "product_content": ".description"
+},{
+    "name": "super theme bv 0.9.9.0",
+    "product_title": ".product-title", 
+    "product_price": ".product-price",
+    "product_addcart": "#AddToCartForm",
+    "product_description": ".description",
+    "product_content": "#shopify-section-product-tabs"
+},{
+    "name": "flex theme 2.0.3",
+    "product_title": ".product_name", 
+    "product_price": ".modal_price.subtitle",
+    "product_addcart": ".shopify-product-form",
+    "product_description": ".description",
+    "product_content": "#shopify-section-product-tabs"
+},{
+    "name": "impulse",
+    "product_title": ".product-single__title", 
+    "product_price": ".product__price",
+    "product_addcart": ".product-single__form",
+    "product_description": ".description",
+    "product_content": "#shopify-section-product-tabs"
+}
+] 
+
+
+

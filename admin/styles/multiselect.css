@@ -1,0 +1,40 @@
+.multiselect {
+    z-index: 2;
+}
+
+.multiselect__tag {
+    background: #409EFF;
+}
+
+.multiselect__tag span {
+    white-space: normal;
+}
+
+.multiselect__tag-icon:after {
+    color: #fff;
+}
+
+.multiselect__tag-icon:focus,
+.multiselect__tag-icon:hover {
+    background: #409EFF;
+}
+
+.multiselect__option--highlight {
+    background: #409EFF;
+}
+
+.multiselect__option--highlight:after {
+    background: #409EFF;
+}
+
+.multiselect__content-wrapper {
+    z-index: 9999
+}
+
+.multiselect__option--selected.multiselect__option--highlight {
+    background: #F56C6C;
+}
+
+.multiselect .multiselect__single {
+    color: #C0C4CC;
+}

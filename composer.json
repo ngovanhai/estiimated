@@ -1,0 +1,7 @@
+{
+    "require": {
+        "sandeepshetty/wcurl": "dev-master",
+        "sandeepshetty/shopify_api": "dev-master",
+        "phpoffice/phpspreadsheet": "^1.14"
+    }
+}

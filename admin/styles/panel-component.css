@@ -1,0 +1,77 @@
+.card-toggle-btn {
+    float: right;
+    padding: 3px 0;
+    font-size: 10px;
+    color: #909399;
+}
+
+.panel-wrapper {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.panel-component-items {
+    transition: all .3s;
+}
+
+.panel-component-items .panel-component-item {
+    display: flex;
+}
+
+.panel-component-items .panel-component-item {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.panel-component-items .panel-component-item.panel-component-item-content-inline {
+    display: block;
+}
+
+.panel-component-items .panel-component-item:first-child {
+    padding-top: 0px;
+}
+
+.panel-component-items .panel-component-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.panel-component-items .panel-component-item .panel-component-item-title {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.panel-component-items .panel-component-item:not(.panel-component-item-content-inline)>.panel-component-item-title:first-child {
+    width: 120px;
+}
+
+.panel-component-items .panel-component-item.panel-component-item-content-inline>.panel-component-item-title:first-child {
+    padding-bottom: 10px;
+}
+
+.panel-component-items .panel-component-item:not(.panel-component-item-content-inline)>.panel-component-item-title.panel-component-item-title-with-input:first-child {
+    line-height: 40px;
+}
+
+.panel-component-items .panel-component-item .panel-component-item-content {
+    flex: 1;
+    min-width: 1px;
+    padding-left: 10px;
+}
+
+.panel-component-items .panel-component-item .panel-component-item-content .panel-component-item-content-helper-text {
+    color: #909399;
+    height: 20px;
+    font-size: 12px;
+    display: block;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.panel-component-items .panel-component-item .panel-component-item-content .panel-component-item-content-helper-text.warning {
+    color: #e6a23c;
+}
+
+.panel-component-items .panel-component-items {
+    padding: 20px 0 10px 0;
+}
